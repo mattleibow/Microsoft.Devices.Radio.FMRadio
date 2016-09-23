@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Microsoft.Devices.Radio.FMRadio.Shared", "..\source\Microsoft.Devices.Radio.FMRadio.Shared\Microsoft.Devices.Radio.FMRadio.Shared.shproj", "{9284E2B1-E3D9-4B90-A826-10A0E8B50A00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Devices.Radio.FMRadio.UWP", "..\source\Microsoft.Devices.Radio.FMRadio.UWP\Microsoft.Devices.Radio.FMRadio.UWP.csproj", "{12204F9C-15E8-4DF4-B5F2-732B07BE0A80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microsoft.Devices.Radio.FMRadio", "Microsoft.Devices.Radio.FMRadio", "{D9ED7D26-5DAB-46D0-8AC8-C7C71646EACA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMRadioApp", "FMRadioApp\FMRadioApp.csproj", "{674FF784-BAB4-4A90-A6F5-9CB1D62A9481}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\source\Microsoft.Devices.Radio.FMRadio.Shared\Microsoft.Devices.Radio.FMRadio.Shared.projitems*{12204f9c-15e8-4df4-b5f2-732b07be0a80}*SharedItemsImports = 4
+		..\source\Microsoft.Devices.Radio.FMRadio.Shared\Microsoft.Devices.Radio.FMRadio.Shared.projitems*{9284e2b1-e3d9-4b90-a826-10a0e8b50a00}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12204F9C-15E8-4DF4-B5F2-732B07BE0A80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12204F9C-15E8-4DF4-B5F2-732B07BE0A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12204F9C-15E8-4DF4-B5F2-732B07BE0A80}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{12204F9C-15E8-4DF4-B5F2-732B07BE0A80}.Debug|ARM.Build.0 = Debug|Any CPU
+		{12204F9C-15E8-4DF4-B5F2-732B07BE0A80}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{12204F9C-15E8-4DF4-B5F2-732B07BE0A80}.Debug|x64.Build.0 = Debug|Any CPU
+		{12204F9C-15E8-4DF4-B5F2-732B07BE0A80}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{12204F9C-15E8-4DF4-B5F2-732B07BE0A80}.Debug|x86.Build.0 = Debug|Any CPU
+		{12204F9C-15E8-4DF4-B5F2-732B07BE0A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12204F9C-15E8-4DF4-B5F2-732B07BE0A80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12204F9C-15E8-4DF4-B5F2-732B07BE0A80}.Release|ARM.ActiveCfg = Release|Any CPU
+		{12204F9C-15E8-4DF4-B5F2-732B07BE0A80}.Release|ARM.Build.0 = Release|Any CPU
+		{12204F9C-15E8-4DF4-B5F2-732B07BE0A80}.Release|x64.ActiveCfg = Release|Any CPU
+		{12204F9C-15E8-4DF4-B5F2-732B07BE0A80}.Release|x64.Build.0 = Release|Any CPU
+		{12204F9C-15E8-4DF4-B5F2-732B07BE0A80}.Release|x86.ActiveCfg = Release|Any CPU
+		{12204F9C-15E8-4DF4-B5F2-732B07BE0A80}.Release|x86.Build.0 = Release|Any CPU
+		{674FF784-BAB4-4A90-A6F5-9CB1D62A9481}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{674FF784-BAB4-4A90-A6F5-9CB1D62A9481}.Debug|ARM.ActiveCfg = Debug|ARM
+		{674FF784-BAB4-4A90-A6F5-9CB1D62A9481}.Debug|ARM.Build.0 = Debug|ARM
+		{674FF784-BAB4-4A90-A6F5-9CB1D62A9481}.Debug|ARM.Deploy.0 = Debug|ARM
+		{674FF784-BAB4-4A90-A6F5-9CB1D62A9481}.Debug|x64.ActiveCfg = Debug|x64
+		{674FF784-BAB4-4A90-A6F5-9CB1D62A9481}.Debug|x64.Build.0 = Debug|x64
+		{674FF784-BAB4-4A90-A6F5-9CB1D62A9481}.Debug|x64.Deploy.0 = Debug|x64
+		{674FF784-BAB4-4A90-A6F5-9CB1D62A9481}.Debug|x86.ActiveCfg = Debug|x86
+		{674FF784-BAB4-4A90-A6F5-9CB1D62A9481}.Debug|x86.Build.0 = Debug|x86
+		{674FF784-BAB4-4A90-A6F5-9CB1D62A9481}.Debug|x86.Deploy.0 = Debug|x86
+		{674FF784-BAB4-4A90-A6F5-9CB1D62A9481}.Release|Any CPU.ActiveCfg = Release|x86
+		{674FF784-BAB4-4A90-A6F5-9CB1D62A9481}.Release|ARM.ActiveCfg = Release|ARM
+		{674FF784-BAB4-4A90-A6F5-9CB1D62A9481}.Release|ARM.Build.0 = Release|ARM
+		{674FF784-BAB4-4A90-A6F5-9CB1D62A9481}.Release|ARM.Deploy.0 = Release|ARM
+		{674FF784-BAB4-4A90-A6F5-9CB1D62A9481}.Release|x64.ActiveCfg = Release|x64
+		{674FF784-BAB4-4A90-A6F5-9CB1D62A9481}.Release|x64.Build.0 = Release|x64
+		{674FF784-BAB4-4A90-A6F5-9CB1D62A9481}.Release|x64.Deploy.0 = Release|x64
+		{674FF784-BAB4-4A90-A6F5-9CB1D62A9481}.Release|x86.ActiveCfg = Release|x86
+		{674FF784-BAB4-4A90-A6F5-9CB1D62A9481}.Release|x86.Build.0 = Release|x86
+		{674FF784-BAB4-4A90-A6F5-9CB1D62A9481}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9284E2B1-E3D9-4B90-A826-10A0E8B50A00} = {D9ED7D26-5DAB-46D0-8AC8-C7C71646EACA}
+		{12204F9C-15E8-4DF4-B5F2-732B07BE0A80} = {D9ED7D26-5DAB-46D0-8AC8-C7C71646EACA}
+	EndGlobalSection
+EndGlobal

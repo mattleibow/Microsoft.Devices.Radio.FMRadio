@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="FMRadioApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FMRadioApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel>
+
+            <ComboBox ItemsSource="{Binding Regions}" SelectedItem="{Binding Region, Mode=TwoWay}" />
+
+            <Slider Value="{Binding Frequency, Mode=TwoWay}" Minimum="{Binding MinFrequency}" Maximum="{Binding MaxFrequency}" 
+                    SmallChange="0.1" LargeChange="1" IsEnabled="{Binding RadioSupported}" StepFrequency="0.1" />
+
+            <TextBlock Text="{Binding MinFrequency}" />
+            <TextBlock Text="{Binding Frequency}" />
+            <TextBlock Text="{Binding MaxFrequency}" />
+
+            <ToggleSwitch IsOn="{Binding RadioOn, Mode=TwoWay}" IsEnabled="{Binding RadioSupported}" />
+
+            <ProgressBar Minimum="0" Maximum="1" SmallChange="0.01" LargeChange="0.1" Value="{Binding SignalStrength}" />
+
+        </StackPanel>
+    </Grid>
+</Page>
