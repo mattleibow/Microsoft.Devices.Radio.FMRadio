@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Devices.Radio.FMRadio.WP8", "Microsoft.Devices.Radio.FMRadio.WP8\Microsoft.Devices.Radio.FMRadio.WP8.csproj", "{DA8DB526-F49A-49E1-A372-00AA7D375336}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Devices.Radio.FMRadio.WinRT", "Microsoft.Devices.Radio.FMRadio.WinRT\Microsoft.Devices.Radio.FMRadio.WinRT.csproj", "{369F4F3D-78F6-4895-B294-6F939431C6D8}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Microsoft.Devices.Radio.FMRadio.Shared", "Microsoft.Devices.Radio.FMRadio.Shared\Microsoft.Devices.Radio.FMRadio.Shared.shproj", "{9284E2B1-E3D9-4B90-A826-10A0E8B50A00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Devices.Radio.FMRadio.UWP", "Microsoft.Devices.Radio.FMRadio.UWP\Microsoft.Devices.Radio.FMRadio.UWP.csproj", "{12204F9C-15E8-4DF4-B5F2-732B07BE0A80}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Microsoft.Devices.Radio.FMRadio.Shared\Microsoft.Devices.Radio.FMRadio.Shared.projitems*{12204f9c-15e8-4df4-b5f2-732b07be0a80}*SharedItemsImports = 4
+		Microsoft.Devices.Radio.FMRadio.Shared\Microsoft.Devices.Radio.FMRadio.Shared.projitems*{369f4f3d-78f6-4895-b294-6f939431c6d8}*SharedItemsImports = 4
+		Microsoft.Devices.Radio.FMRadio.Shared\Microsoft.Devices.Radio.FMRadio.Shared.projitems*{9284e2b1-e3d9-4b90-a826-10a0e8b50a00}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA8DB526-F49A-49E1-A372-00AA7D375336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA8DB526-F49A-49E1-A372-00AA7D375336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA8DB526-F49A-49E1-A372-00AA7D375336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA8DB526-F49A-49E1-A372-00AA7D375336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{369F4F3D-78F6-4895-B294-6F939431C6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{369F4F3D-78F6-4895-B294-6F939431C6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{369F4F3D-78F6-4895-B294-6F939431C6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{369F4F3D-78F6-4895-B294-6F939431C6D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12204F9C-15E8-4DF4-B5F2-732B07BE0A80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12204F9C-15E8-4DF4-B5F2-732B07BE0A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12204F9C-15E8-4DF4-B5F2-732B07BE0A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12204F9C-15E8-4DF4-B5F2-732B07BE0A80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

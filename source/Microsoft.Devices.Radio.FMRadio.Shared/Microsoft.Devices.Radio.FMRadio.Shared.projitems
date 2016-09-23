@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>9284e2b1-e3d9-4b90-a826-10a0e8b50a00</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Microsoft.Devices.Radio</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)FMRadio.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RadioApiNativeMethods.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RadioDisabledException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RadioPowerMode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RadioRegion.cs" />
+  </ItemGroup>
+</Project>
