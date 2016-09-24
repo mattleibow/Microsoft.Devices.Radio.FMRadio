@@ -8,7 +8,7 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <StackPanel>
+        <StackPanel Padding="12">
 
             <ComboBox ItemsSource="{Binding Regions}" SelectedItem="{Binding Region, Mode=TwoWay}" />
 
@@ -21,7 +21,7 @@
 
             <ToggleSwitch IsOn="{Binding RadioOn, Mode=TwoWay}" IsEnabled="{Binding RadioSupported}" />
 
-            <ProgressBar Minimum="0" Maximum="1" SmallChange="0.01" LargeChange="0.1" Value="{Binding SignalStrength}" />
+            <TextBlock Text="{Binding SignalStrength}" />
 
         </StackPanel>
     </Grid>
