@@ -4,9 +4,6 @@ namespace Microsoft.Devices.Radio
 {
 	public sealed class FMRadio
 	{
-		private const double MaxFrequency = 1000;
-		private const double MinFrequency = 0;
-
 		private static FMRadio instance;
 
 		private RadioPowerMode powerMode;
@@ -56,15 +53,15 @@ namespace Microsoft.Devices.Radio
 			{
 				uint khz;
 				RadioApiNativeMethods.MediaApi_GetRadioFrequency(out khz);
-				return khz / MaxFrequency;
+				return khz / 1000.0;
 			}
 			set
 			{
-				if (value < MinFrequency || value > MaxFrequency)
+				if (value < 0 || value > 1000)
 				{
 					throw new ArgumentOutOfRangeException(nameof(value));
 				}
-				uint khz = (uint)(value * MaxFrequency);
+				uint khz = (uint)(value * 1000);
 				RadioApiNativeMethods.MediaApi_TuneRadio((uint)CurrentRegion, khz);
 			}
 		}
